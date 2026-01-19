@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Açaí-Express | Sistema CRUD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>Açaí-Express 💜</h1>
+        <p>Sistema de Gerenciamento e Pedidos</p>
+    </header>
+
+    <nav class="menu-principal">
+        <a href="listar_produtos.php" class="nav-item">
+            <span><i class="fas fa-cubes"></i></span> Gerenciamento de Ingredientes
+        </a>
+        <a href="listar_medidas.php" class="nav-item">
+            <span><i class="fas fa-ruler-combined"></i></span> Gerenciamento de Produtos
+        </a>
+        
+        <a href="cadastro_pedido.php" class="nav-item principal">
+            <span><i class="fas fa-cart-plus"></i></span> **NOVO PEDIDO**
+        </a>
+        <a href="listar_pedidos.php" class="nav-item">
+            <span><i class="fas fa-clipboard-list"></i></span> Buscar e Gerenciar Pedidos
+        </a>
+    </nav>
+
+    <div class="container">
+        <h2>Seja Bem-vindo(a) ao Painel de Controle!</h2>
+        <p style="text-align: center; margin-bottom: 30px;">
+            Utilize o menu de navegação acima para gerenciar os cadastros e acompanhar o fluxo de pedidos.
+        </p>
+
+        <section class="produtos-destaque">
+            <div class="produto-card">
+                <div class="imagem-placeholder">
+                    <i class="fas fa-blender" style="font-size: 40px;"></i>
+                </div>
+                <h3>Gerencie Seus Ingredientes</h3>
+                <p>Mantenha atualizado o estoque de frutas, coberturas e adicionais na área de **Controle de Ingredientes**.</p>
+                <a href="listar_produtos.php" class="acao-btn edit-btn" style="margin-top: 10px;">Acessar Ingredientes</a>
+            </div>
+
+            <div class="produto-card">
+                <div class="imagem-placeholder">
+                    <i class="fas fa-clock" style="font-size: 40px;"></i>
+                </div>
+                <h3>Pedidos em Tempo Real</h3>
+                <p>Monitore e edite os pedidos ativos, ou crie rapidamente um **Novo Pedido**.</p>
+                <a href="listar_pedidos.php" class="acao-btn edit-btn" style="margin-top: 10px;">Ver Pedidos</a>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Açaí-Express. Desenvolvido para Gerenciamento de Pedidos.</p>
+    </footer>
+</body>
+
+</html>
